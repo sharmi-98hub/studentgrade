@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Calculator</title>
+    <script src="script.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f9f9f9;
+      display:grid;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(51, 50, 50);
+      color: #f9f9f9;
+    }
+    h1{
+     color: black;
+    }
+    input, button {
+      margin: 8px 0;
+      padding: 8px;
+    }
+    .result {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Student Grade Calculator</h1>
+
+  <label>Subject 1 Marks:</label><br>
+  <input type="number" id="sub1"><br>
+  
+  <label>Subject 2 Marks:</label><br>
+  <input type="number" id="sub2"><br>
+  
+  <label>Subject 3 Marks:</label><br>
+  <input type="number" id="sub3"><br>
+  
+  <label>Subject 4 Marks:</label><br>
+  <input type="number" id="sub4"><br>
+  
+  <label>Subject 5 Marks:</label><br>
+  <input type="number" id="sub5"><br>
+
+  <button onclick="calculateGrade()">Calculate Grade</button>
+
+  <div class="result" id="output"></div>
+
+ 
+
+</body>
+</html>
